@@ -19,3 +19,8 @@ $('ul').on("click", "span", function(e) {
     });
     e.stopPropagation(); // stops the event bubble what will cascade 
 });
+
+//Hide and Show Input form
+$(".fa-plus").click(function() {
+    $("input[type='text']").fadeToggle();
+});
